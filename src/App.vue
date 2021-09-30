@@ -1,14 +1,17 @@
 <template>
   <div>
-    <Board></Board>
+    <!-- <Board></Board> -->
+    <VueMaginGgrid></VueMaginGgrid>
   </div>
 </template>
 
 <script>
-import Board from './components/board.vue'
+// import Board from './components/board.vue'
+import VueMaginGgrid from './components/vue-magin-grid.vue'
 export default {
   components:{
-    Board
+    // Board,
+    VueMaginGgrid
   }
 };
 </script>

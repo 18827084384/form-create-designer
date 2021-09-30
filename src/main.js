@@ -6,6 +6,9 @@ import FcDesigner from '@form-create/designer'
 import ELEMENT from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
+import MagicGrid from 'vue-magic-grid'
+
+Vue.use(MagicGrid)
 Vue.use(ELEMENT)
 Vue.use(formCreate)
 Vue.use(FcDesigner)
